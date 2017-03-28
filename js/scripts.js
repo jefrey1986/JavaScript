@@ -1,8 +1,8 @@
 var list = document.getElementById("list");
 var add = document.getElementById('addElem');
-var newPoint = document.getElementsByTagName('li');
+var itemList = document.getElementsByTagName('li');
 add.addEventListener('click', function() {
-	var number = newPoint.length;
+	var number = itemList.length;
 	list.innerHTML += "<li>item " + number + "</li>";
 	console.log();
 });
