@@ -1,8 +1,8 @@
  var withButtonClass = document.getElementsByClassName("button");
  console.log(withButtonClass);
- var btn = withButtonClass.length;
- console.log(btn);
-for (k = 0; k < btn; k++) {
+ var NumberOfButtons = withButtonClass.length;
+ console.log(NumberOfButtons);
+for (k = 0; k < NumberOfButtons; k++) {
 	alert (withButtonClass[k].innerText);
 }
 
